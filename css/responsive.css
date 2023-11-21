@@ -387,6 +387,7 @@
 
     .chapter {
         margin-bottom: 40px;
+        text-align: center;
     }
 
     ul.chapter-details li {
@@ -408,12 +409,20 @@
 /* Extra Small Devices (Portrait Phones &  Smaller Devices) */
 @media (max-width: 480px) {
 
+    #statement{
+        margin: 0 25% 0 25%;
+    }
+
     /* Preloader */
     #preloader {
         background-color: #fff;
         position: fixed;
         height: auto;
         width: auto;
+    }
+    .chapter {
+        text-align: left;
+        padding: 0 10%;
     }
 
     #status {
